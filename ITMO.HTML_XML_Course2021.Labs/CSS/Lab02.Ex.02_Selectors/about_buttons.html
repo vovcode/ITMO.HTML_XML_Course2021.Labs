@@ -2,14 +2,45 @@
 <html>
 <head>
 <title>About button</title>
+<style>
+p{
+	color: #708090;
+	font-size:1em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:70px;
+	padding-left: 20px;
+	border-left: solid 20px #FFD700;
+}
+h1, h2, h3{
+	color:#000080;
+	font-family: Times, serif;
+	border-bottom:1px solid #000080;
+	padding-top:7px;
+}
+h1{
+	font-size:3em;
+	border-bottom:2px solid #000080;
+	padding-bottom:20px;
+}
+.interesting{
+	font-style:italic;
+}
+#info{
+background-color: #FAF0E6;
+padding: 0;
+margin: 0 auto;
+width: 800px;	
+}
+
+</style>
 </head>
-<body>
+<body id = "info">
 <h1>Несколько историй</h1>
 <a href = "#history_1">История первая</a><br />
 <a href = "#history_2">История вторая</a><br />
 <div>
 <h2 id = "history_1">История первая</h2>
-<p>Давняя и неизменная часть истории костюма - <strong>пуговица</strong> - это и "скромная статистка", и яркая деталь на 
+<p class= "interesting">Давняя и неизменная часть истории костюма - <strong>пуговица</strong> - это и "скромная статистка", и яркая деталь на 
 страницах многих произведений художественной литературы, отражающая не только веяния моды, но и 
 социальное положение, вкус, воспитание.</p>
 
@@ -136,6 +167,8 @@
 
 <h3>Это интересно</h3>
 
+<div class = "interesting">
+
 <p>На мужской одежде пуговицы расположены справа, а на женской слева. Считается, что во времена 
 внедрения пуговиц мужчины одевались сами, а женщин одевали служанки – поэтому для них пуговицы 
 пришивали в зеркальном отражении.</p>
@@ -144,7 +177,7 @@
 вытирать рукавом рот и нос. Так он  отучил солдат от дурной привычки, портившей мундирное сукно.</p>
 <p>Найти пуговицу до сих пор считается хорошей приметой, а если дорогу вам перебежала черная кошка, 
 достаточно дотронуться до пуговицы – и можно смело идти вперед. </p>
-
+</div>
 <p><a href = "http://www.filipoc.ru/interesting/istoriya-pugovitsyi">Ссылка на источник</a></p> 
 </div>
 </body>
